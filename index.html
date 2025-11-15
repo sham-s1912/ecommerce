@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Slipcart - Home</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <!-- NAVIGATION (Slipcart) -->
+    <header>
+        <nav class="main-nav">
+            <a class="logo" href="index.html">Slipcart</a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Product Items</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+            <div class="nav-actions">
+                <a href="#" id="openLogin">Login</a>
+                <a href="#" id="openRegister">Register</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Welcome to Slipcart</h1>
+
+        <!-- DASHBOARD -->
+        <section id="dashboard">
+            <div class="card" id="ordersBlock">
+                <h2>Your Orders</h2>
+                <ul id="ordersList"></ul>
+            </div>
+
+            <div class="card" id="wishlistBlock">
+                <h2>Your Wishlist</h2>
+                <ul id="wishlist"></ul>
+            </div>
+
+            <div class="card" id="reviewsBlock">
+                <h2>Comments & Reviews</h2>
+                <div id="reviews"></div>
+            </div>
+
+            <div class="card" id="supportBlock">
+                <h2>Customer Care</h2>
+                <p>Email: support@slipcart.com</p>
+                <p>Phone: +91 98765 43210</p>
+            </div>
+
+            <div class="card" id="reportBlock">
+                <h2>Report an Issue</h2>
+                <button id="reportBtn">Report a Problem</button>
+            </div>
+        </section>
+    </main>
+
+    <!-- LOGIN & REGISTER MODALS -->
+    <div id="modalOverlay" class="hidden">
+        <div id="modal"></div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
